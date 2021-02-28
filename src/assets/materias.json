@@ -1,0 +1,360 @@
+{
+  "data": [
+    {
+      "id": "EMC0085",
+      "text": "FL",
+      "next": [
+        "EMC0025"
+      ]
+    },
+    {
+      "id": "EMC0101",
+      "text": "Introdução"
+    },
+    {
+      "id": "IME0075",
+      "text": "C1A",
+      "next": [
+        "IME0080",
+        "IME0108",
+        "IFI0264",
+        "IME0062"
+      ]
+    },
+    {
+      "id": "INF0007",
+      "text": "AP1",
+      "next": [
+        "INF0009",
+        "IME0062"
+      ]
+    },
+    {
+      "id": "INQ0158",
+      "text": "QGB"
+    },
+    {
+      "id": "INQ0161",
+      "text": "QGE"
+    },
+    {
+      "id": "IFI0112",
+      "text": "F1"
+    },
+    {
+      "id": "IFI0158",
+      "text": "Lab-F1"
+    },
+    {
+      "id": "IME0009",
+      "text": "AL",
+      "next": [
+        "IME0108",
+        "IME0062"
+      ]
+    },
+    {
+      "id": "IME0080",
+      "text": "C2A",
+      "next": [
+        "IFI0116",
+        "IME0083"
+      ]
+    },
+    {
+      "id": "INF0009",
+      "text": "AP2",
+      "next": [
+        "INF0063",
+        "INF0202",
+        "INF0033",
+        "INF0198",
+        "EMC0027"
+      ]
+    },
+    {
+      "id": "IFI0116",
+      "text": "F3",
+      "next": [
+        "IFI0027",
+        "IFI0118",
+        "EMC0021",
+        "EMC0149"
+      ]
+    },
+    {
+      "id": "IME0083",
+      "text": "C3A",
+      "next": [
+        "IFI0027"
+      ]
+    },
+    {
+      "id": "IME0108",
+      "text": "EDO",
+      "next": [
+        "EMC0160",
+        "EMC0021",
+        "EEC0096"
+      ]
+    },
+    {
+      "id": "IME0286",
+      "text": "MD"
+    },
+    {
+      "id": "INF0063",
+      "text": "ED1",
+      "next": [
+        "INF0064",
+        "INF0026",
+        "INF0092"
+      ]
+    },
+    {
+      "id": "EMC0160",
+      "text": "MML",
+      "next": [
+        "EMC0006"
+      ]
+    },
+    {
+      "id": "FAV0139",
+      "text": "Desenho"
+    },
+    {
+      "id": "IFI0027",
+      "text": "Elemag",
+      "next": [
+        "EMC0040"
+      ]
+    },
+    {
+      "id": "IFI0118",
+      "text": "F4"
+    },
+    {
+      "id": "IFI0162",
+      "text": "Lab-F4"
+    },
+    {
+      "id": "INF0064",
+      "text": "ED2",
+      "next": [
+        "INF0026",
+        "INF0092"
+      ]
+    },
+    {
+      "id": "EMC0006",
+      "text": "ASL",
+      "next": [
+        "EMC0214",
+        "EMC0226"
+      ]
+    },
+    {
+      "id": "EMC0021",
+      "text": "Circuitos-1",
+      "next": [
+        "EMC0040",
+        "EMC0056"
+      ]
+    },
+    {
+      "id": "EMC0119",
+      "text": "Lab-de-Circuitos-1"
+    },
+    {
+      "id": "EMC0136",
+      "text": "Lab-de-Materiais"
+    },
+    {
+      "id": "EMC0149",
+      "text": "Materiais",
+      "next": [
+        "EMC0056"
+      ]
+    },
+    {
+      "id": "INF0026",
+      "text": "BD1"
+    },
+    {
+      "id": "EMC0040",
+      "text": "Conversão-1"
+    },
+    {
+      "id": "EMC0056",
+      "text": "Eletrônica-1",
+      "next": [
+        "EMC0163"
+      ]
+    },
+    {
+      "id": "EMC0123",
+      "text": "Lab-de-Conversão-1"
+    },
+    {
+      "id": "EMC0126",
+      "text": "Lab-de-Eletrônica-1"
+    },
+    {
+      "id": "EMC0214",
+      "text": "Sistemas",
+      "next": [
+        "EMC0139"
+      ]
+    },
+    {
+      "id": "IME0232",
+      "text": "P&E"
+    },
+    {
+      "id": "EEC0096",
+      "text": "FT"
+    },
+    {
+      "id": "EMC0025",
+      "text": "CL1",
+      "next": [
+        "EMC0163",
+        "EMC0010"
+      ]
+    },
+    {
+      "id": "EMC0122",
+      "text": "Lab-CL1"
+    },
+    {
+      "id": "EMC0139",
+      "text": "Lab-de-Sistemas"
+    },
+    {
+      "id": "IFI0264",
+      "text": "Mecânica",
+      "next": [
+        "EEC0224"
+      ]
+    },
+    {
+      "id": "IME0062",
+      "text": "CN",
+      "next": [
+        "EMC0170"
+      ]
+    },
+    {
+      "id": "EEC0224",
+      "text": "ReMa"
+    },
+    {
+      "id": "EMC0117",
+      "text": "Lab-Micros"
+    },
+    {
+      "id": "EMC0158",
+      "text": "Metodologia"
+    },
+    {
+      "id": "EMC0163",
+      "text": "Micros"
+    },
+    {
+      "id": "EMC0226",
+      "text": "Telecom"
+    },
+    {
+      "id": "INF0126",
+      "text": "Formais",
+      "next": [
+        "INF0033"
+      ]
+    },
+    {
+      "id": "INF0202",
+      "text": "SO"
+    },
+    {
+      "id": "EEC0026",
+      "text": "CiAmb"
+    },
+    {
+      "id": "EMC0010",
+      "text": "Arquitetura-1"
+    },
+    {
+      "id": "EMC0170",
+      "text": "PO1"
+    },
+    {
+      "id": "EMC0274",
+      "text": "Redes-1"
+    },
+    {
+      "id": "FAC0060",
+      "text": "Economia",
+      "next": [
+        "EMC0072"
+      ]
+    },
+    {
+      "id": "FAD0062",
+      "text": "Direito"
+    },
+    {
+      "id": "INF0033",
+      "text": "Compiladores-1"
+    },
+    {
+      "id": "INF0058",
+      "text": "Eng-Software-1"
+    },
+    {
+      "id": "INF0092",
+      "text": "Inteligênica"
+    },
+    {
+      "id": "INF0198",
+      "text": "SD1"
+    },
+    {
+      "id": "EMC0027",
+      "text": "Gráfica"
+    },
+    {
+      "id": "EMC0072",
+      "text": "Eng-Econômica"
+    },
+    {
+      "id": "EMC0076",
+      "text": "Estágio"
+    },
+    {
+      "id": "EMC0182",
+      "text": "PFC1",
+      "next": [
+        "EMC0183"
+      ]
+    },
+    {
+      "id": "EMC0183",
+      "text": "PFC2"
+    },
+    {
+      "id": "FAC0006",
+      "text": "Administração"
+    },
+    {
+      "id": "1200h",
+      "text": "1200h",
+      "next": [
+        "INF0126",
+        "FAD0062",
+        "INF0058",
+        "EMC0076",
+        "EMC0182"
+      ]
+    }
+  ]
+}
