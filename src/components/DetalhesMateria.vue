@@ -1,7 +1,10 @@
 <template>
   <q-dialog v-model="visibilidade">
     <q-layout class="bg-grey-10">
-      <q-header class="detalhes_header">Detalhes da Materia</q-header>
+      <q-header class="detalhes_header">
+        <span>Detalhes da Materia</span>
+        <q-icon name="close" v-close-popup></q-icon>
+      </q-header>
       asdfasdfa
     </q-layout>
   </q-dialog>
@@ -23,5 +26,8 @@ export default {
   background: var(--yellow-secondaty);
   font-size: 1.6rem;
   padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 </style>
