@@ -13,7 +13,7 @@ export default defineComponent({
   --black: #0A0903;
   --blue-primary:#4472c4;
   --yellow-secondaty: #ffc000;
-  --grey: #24282d;
+  --grey: #343841;
   --grey-light: #888a8d;
   --white: whitesmoke;
 }

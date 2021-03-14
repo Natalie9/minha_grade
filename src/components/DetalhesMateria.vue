@@ -1,14 +1,18 @@
 <template>
   <q-dialog v-model="visibilidade">
-    <q-layout class="detalhes_container">
+    <q-layout class="layout_container">
       <q-header class="detalhes_header">
         <span>Detalhes da Materia</span>
         <q-icon name="close" v-close-popup></q-icon>
       </q-header>
-      <q-page-container class="detalhes_materia">
-        <span>Nome: {{ materia.materia }} </span>
-        <span>Periodo: {{ materia.periodo }}</span>
-        <span>Nucleo: {{ materia.nucleo }} </span>
+      <q-page-container class="detalhes_container">
+        <div class="detalhes_texto">
+          <span>Nome: {{ materia.materia }} </span>
+          <span>{{ materia.periodo }}° período </span>
+          <span>Nucleo: {{ materia.nucleo }} </span>
+        </div>
+        <q-btn class="detalhes_botao" label="Ver mais" @click="irParaMateria"></q-btn>
+
       </q-page-container>
     </q-layout>
   </q-dialog>
@@ -28,13 +32,21 @@ export default {
   methods: {
     atualizar (id) {
       this.materia = this.materias.filter((mat) => mat.id === id)[0]
+    },
+    irParaMateria () {
+      this.$router.push({
+        name: 'Materia',
+        params: {
+          id: this.materia.id
+        }
+      })
     }
   }
 }
 </script>
 
 <style scoped>
-.detalhes_container {
+.layout_container {
   background: var(--grey);
   color: var(--white);
 }
@@ -48,11 +60,21 @@ export default {
   align-items: center;
 }
 
-.detalhes_materia{
+.detalhes_container {
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
   padding: 2.4rem;
-  justify-items: center;
+  align-content: space-between;
+}
+
+.detalhes_texto {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem;
+}
+
+.detalhes_botao {
+  background: var(--yellow-secondaty);
 }
 </style>
