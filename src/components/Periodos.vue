@@ -79,6 +79,7 @@ export default {
   text-align: center;
   color: var(--white);
   word-wrap: normal;
+  cursor: pointer;
 }
 
 @media (min-width: 900px) {

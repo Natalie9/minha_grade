@@ -3,7 +3,7 @@
     <q-layout class="layout_container">
       <q-header class="detalhes_header">
         <span>Detalhes da Materia</span>
-        <q-icon name="close" v-close-popup></q-icon>
+        <q-icon name="close" class="cursor-pointer" v-close-popup ></q-icon>
       </q-header>
       <q-page-container class="detalhes_container">
         <div class="detalhes_texto">
