@@ -4,7 +4,7 @@
       <div v-for="(periodo, index) in periodos" :key="periodo" class="periodos_container">
         <span class="periodo-title">{{ index }}</span>
 
-        <div v-for="materia of periodo" :key="materia.id" class="materias_container" @click="viewDetails">
+        <div v-for="materia of periodo" :key="materia.id" class="materias_container" @click="viewDetails(materia.id)">
           <div class="materia_card">
             {{ materia.materia }}
           </div>
@@ -30,8 +30,9 @@ export default {
     }
   },
   methods: {
-    viewDetails () {
+    viewDetails (id) {
       this.$refs.detalhesMateria.visibilidade = true
+      this.$refs.detalhesMateria.atualizar(id)
     }
   },
   computed: {
