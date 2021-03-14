@@ -1,0 +1,665 @@
+{
+    "ID Grade": "ENGCO-BM-2",
+    "Curso": "ENGENHARIA DE COMPUTAÇÃO - Goiânia - Presencial - M - BACHARELADO",
+    "Unidade de Vinculação": "ESCOLA DE ENGENHARIA ELÉTRICA, MECANICA E DE COMPUTACAO",
+    "Período Letivo de Entrada em Vigor": "2009 . 1",
+    "Turno da Grade": "Matutino",
+    "componentes_curriculares": [
+        {
+            "id": "EMC0085",
+            "materia": "FUNDAMENTOS DE LÓGICA",
+            "periodo": 1,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "FL",
+            "next": [
+                "EMC0025"
+            ]
+        },
+        {
+            "id": "EMC0101",
+            "materia": "INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO",
+            "periodo": 1,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Introdução"
+        },
+        {
+            "id": "IME0075",
+            "materia": "CÁLCULO 1A",
+            "corequisito": [
+                "IFI0112"
+            ],
+            "periodo": 1,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "C1A",
+            "next": [
+                "IME0080",
+                "IME0108",
+                "IFI0264",
+                "IME0062"
+            ]
+        },
+        {
+            "id": "INF0007",
+            "materia": "ALGORITMOS E PROGRAMAÇÃO 1",
+            "periodo": 1,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "AP1",
+            "next": [
+                "INF0009",
+                "IME0062"
+            ]
+        },
+        {
+            "id": "INQ0158",
+            "materia": "QUÍMICA GERAL B",
+            "corequisito": [
+                "INQ0161"
+            ],
+            "periodo": 1,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "QGB"
+        },
+        {
+            "id": "INQ0161",
+            "materia": "QUÍMICA GERAL EXPERIMENTAL",
+            "periodo": 1,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "QGE"
+        },
+        {
+            "id": "IFI0112",
+            "materia": "FÍSICA 1",
+            "corequisito": [
+                "IFI0158"
+            ],
+            "periodo": 2,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "F1"
+        },
+        {
+            "id": "IFI0158",
+            "materia": "LABORATÓRIO DE FÍSICA 1",
+            "periodo": 2,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Lab-F1"
+        },
+        {
+            "id": "IME0009",
+            "materia": "ÁLGEBRA LINEAR",
+            "periodo": 2,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "AL",
+            "next": [
+                "IME0108",
+                "IME0062"
+            ]
+        },
+        {
+            "id": "IME0080",
+            "materia": "CÁLCULO 2A",
+            "periodo": 2,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "C2A",
+            "next": [
+                "IFI0116",
+                "IME0083"
+            ]
+        },
+        {
+            "id": "INF0009",
+            "materia": "ALGORITMOS E PROGRAMAÇÃO 2",
+            "periodo": 2,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "AP2",
+            "next": [
+                "INF0063",
+                "INF0202",
+                "INF0033",
+                "INF0198",
+                "EMC0027"
+            ]
+        },
+        {
+            "id": "IFI0116",
+            "materia": "FÍSICA 3",
+            "periodo": 3,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "F3",
+            "next": [
+                "IFI0027",
+                "IFI0118",
+                "EMC0021",
+                "EMC0149"
+            ]
+        },
+        {
+            "id": "IME0083",
+            "materia": "CÁLCULO 3A",
+            "periodo": 3,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "C3A",
+            "next": [
+                "IFI0027"
+            ]
+        },
+        {
+            "id": "IME0108",
+            "materia": "EQUAÇÕES DIFERENCIAIS ORDINÁRIAS",
+            "periodo": 3,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "EDO",
+            "next": [
+                "EMC0160",
+                "EMC0021",
+                "EEC0096"
+            ]
+        },
+        {
+            "id": "IME0286",
+            "materia": "MATEMÁTICA DISCRETA",
+            "periodo": 3,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "MD"
+        },
+        {
+            "id": "INF0063",
+            "materia": "ESTRUTURAS DE DADOS I",
+            "periodo": 3,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "ED1",
+            "next": [
+                "INF0064",
+                "INF0026",
+                "INF0092"
+            ]
+        },
+        {
+            "id": "EMC0160",
+            "materia": "MÉTODOS MATEMÁTICOS LINEARES",
+            "periodo": 4,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "MML",
+            "next": [
+                "EMC0006"
+            ]
+        },
+        {
+            "id": "FAV0139",
+            "materia": "DESENHO TÉCNICO",
+            "periodo": 4,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Desenho"
+        },
+        {
+            "id": "IFI0027",
+            "materia": "ELETROMAGNETISMO",
+            "periodo": 4,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Elemag",
+            "next": [
+                "EMC0040"
+            ]
+        },
+        {
+            "id": "IFI0118",
+            "materia": "FÍSICA 4",
+            "corequisito": [
+                "IFI0162"
+            ],
+            "periodo": 4,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "F4"
+        },
+        {
+            "id": "IFI0162",
+            "materia": "LABORATÓRIO DE FÍSICA 4",
+            "periodo": 4,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Lab-F4"
+        },
+        {
+            "id": "INF0064",
+            "materia": "ESTRUTURAS DE DADOS II",
+            "periodo": 4,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "ED2",
+            "next": [
+                "INF0026",
+                "INF0092"
+            ]
+        },
+        {
+            "id": "EMC0006",
+            "materia": "ANÁLISE DE SISTEMAS LINEARES",
+            "periodo": 5,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "ASL",
+            "next": [
+                "EMC0214",
+                "EMC0226"
+            ]
+        },
+        {
+            "id": "EMC0021",
+            "materia": "CIRCUITOS ELÉTRICOS 1",
+            "corequisito": [
+                "EMC0119"
+            ],
+            "periodo": 5,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Circuitos-1",
+            "next": [
+                "EMC0040",
+                "EMC0056"
+            ]
+        },
+        {
+            "id": "EMC0119",
+            "materia": "LABORATÓRIO DE CIRCUITOS ELÉTRICOS 1",
+            "periodo": 5,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Lab-de-Circuitos-1"
+        },
+        {
+            "id": "EMC0136",
+            "materia": "LABORATÓRIO DE MATERIAIS ELÉTRICOS",
+            "periodo": 5,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Lab-de-Materiais"
+        },
+        {
+            "id": "EMC0149",
+            "materia": "MATERIAIS ELÉTRICOS",
+            "corequisito": [
+                "EMC0136"
+            ],
+            "periodo": 5,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Materiais",
+            "next": [
+                "EMC0056"
+            ]
+        },
+        {
+            "id": "INF0026",
+            "materia": "BANCO DE DADOS 1",
+            "periodo": 5,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "BD1"
+        },
+        {
+            "id": "EMC0040",
+            "materia": "CONVERSÃO ELETROMECÂNICA DE ENERGIA 1",
+            "corequisito": [
+                "EMC0123"
+            ],
+            "periodo": 6,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Conversão-1"
+        },
+        {
+            "id": "EMC0056",
+            "materia": "ELETRÔNICA 1",
+            "corequisito": [
+                "EMC0126"
+            ],
+            "periodo": 6,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Eletrônica-1",
+            "next": [
+                "EMC0163"
+            ]
+        },
+        {
+            "id": "EMC0123",
+            "materia": "LABORATÓRIO DE CONVERSÃO ELETROMECÂN DE ENERGIA 1",
+            "periodo": 6,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Lab-de-Conversão-1"
+        },
+        {
+            "id": "EMC0126",
+            "materia": "LABORATÓRIO DE ELETRÔNICA 1",
+            "periodo": 6,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Lab-de-Eletrônica-1"
+        },
+        {
+            "id": "EMC0214",
+            "materia": "SISTEMAS DE CONTROLE",
+            "periodo": 6,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Sistemas",
+            "next": [
+                "EMC0139"
+            ]
+        },
+        {
+            "id": "IME0232",
+            "materia": "PROBABILIDADE E ESTATÍSTICA",
+            "periodo": 6,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "P&E"
+        },
+        {
+            "id": "EEC0096",
+            "materia": "FENÔMENOS DE TRANSPORTE",
+            "periodo": 7,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "FT"
+        },
+        {
+            "id": "EMC0025",
+            "materia": "CIRCUITOS LÓGICOS 1",
+            "corequisito": [
+                "EMC0122"
+            ],
+            "periodo": 7,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "CL1",
+            "next": [
+                "EMC0163",
+                "EMC0010"
+            ]
+        },
+        {
+            "id": "EMC0122",
+            "materia": "LABORATÓRIO DE CIRCUITOS LÓGICOS",
+            "periodo": 7,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Lab-CL1"
+        },
+        {
+            "id": "EMC0139",
+            "materia": "LABORATÓRIO DE SISTEMAS DE CONTROLE",
+            "periodo": 7,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Lab-de-Sistemas"
+        },
+        {
+            "id": "IFI0264",
+            "materia": "MECÂNICA",
+            "corequisito": [
+                "EMC0123"
+            ],
+            "periodo": 7,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Mecânica",
+            "next": [
+                "EEC0224"
+            ]
+        },
+        {
+            "id": "IME0062",
+            "materia": "CÁLCULO NUMÉRICO",
+            "periodo": 7,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "CN",
+            "next": [
+                "EMC0170"
+            ]
+        },
+        {
+            "id": "EEC0224",
+            "materia": "RESISTÊNCIA DOS MATERIAIS I",
+            "periodo": 8,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "ReMa"
+        },
+        {
+            "id": "EMC0117",
+            "materia": "LAB DE MICROPROCESSADORES E MICROCONTROLADORES",
+            "periodo": 8,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Lab-Micros"
+        },
+        {
+            "id": "EMC0158",
+            "materia": "METODOLOGIA CIENTÍFICA",
+            "periodo": 8,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Metodologia"
+        },
+        {
+            "id": "EMC0163",
+            "materia": "MICROPROCESSADORES E MICROCONTROLADORES",
+            "corequisito": [
+                "EMC0117"
+            ],
+            "periodo": 8,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Micros"
+        },
+        {
+            "id": "EMC0226",
+            "materia": "TEORIA DE TELECOMUNICAÇÕES",
+            "periodo": 8,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Telecom"
+        },
+        {
+            "id": "INF0126",
+            "materia": "LINGUAGENS FORMAIS",
+            "periodo": 8,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Formais",
+            "next": [
+                "INF0033"
+            ]
+        },
+        {
+            "id": "INF0202",
+            "materia": "SISTEMAS OPERACIONAIS",
+            "periodo": 8,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "SO"
+        },
+        {
+            "id": "EEC0026",
+            "materia": "CIÊNCIAS DO AMBIENTE",
+            "periodo": 9,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "CiAmb"
+        },
+        {
+            "id": "EMC0010",
+            "materia": "ARQUITETURA DE COMPUTADORES 1",
+            "periodo": 9,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Arquitetura-1"
+        },
+        {
+            "id": "EMC0170",
+            "materia": "PESQUISA OPERACIONAL 1",
+            "periodo": 9,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "PO1"
+        },
+        {
+            "id": "EMC0274",
+            "materia": "REDES DE COMPUTADORES 1",
+            "periodo": 9,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Redes-1"
+        },
+        {
+            "id": "FAC0060",
+            "materia": "ECONOMIA",
+            "periodo": 9,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Economia",
+            "next": [
+                "EMC0072"
+            ]
+        },
+        {
+            "id": "FAD0062",
+            "materia": "DIREITO PARA ENGENHARIA",
+            "periodo": 9,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Direito"
+        },
+        {
+            "id": "INF0033",
+            "materia": "COMPILADORES 1",
+            "periodo": 9,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Compiladores-1"
+        },
+        {
+            "id": "INF0058",
+            "materia": "ENGENHARIA DE SOFTWARE 1",
+            "periodo": 9,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Eng-Software-1"
+        },
+        {
+            "id": "INF0092",
+            "materia": "INTELIGÊNCIA COMPUTACIONAL",
+            "periodo": 9,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Inteligênica"
+        },
+        {
+            "id": "INF0198",
+            "materia": "SISTEMAS DISTRIBUÍDOS 1",
+            "periodo": 9,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "SD1"
+        },
+        {
+            "id": "EMC0027",
+            "materia": "COMPUTAÇÃO GRÁFICA",
+            "periodo": 10,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Gráfica"
+        },
+        {
+            "id": "EMC0072",
+            "materia": "ENGENHARIA ECONÔMICA",
+            "periodo": 10,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Eng-Econômica"
+        },
+        {
+            "id": "EMC0076",
+            "materia": "ESTÁGIO SUPERVISIONADO",
+            "periodo": 10,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "Estágio"
+        },
+        {
+            "id": "EMC0182",
+            "materia": "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 1",
+            "periodo": 10,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "PFC1",
+            "next": [
+                "EMC0183"
+            ]
+        },
+        {
+            "id": "EMC0183",
+            "materia": "PROJETO DE FINAL DE CURSO PARA ENG DE COMPUTAÇÃO 2",
+            "periodo": 10,
+            "nucleo": "NE-Obr",
+            "natureza": "OBRIG.",
+            "text": "PFC2"
+        },
+        {
+            "id": "FAC0006",
+            "materia": "ADMINISTRAÇÃO EMPRESARIAL",
+            "periodo": 10,
+            "nucleo": "NC",
+            "natureza": "OBRIG.",
+            "text": "Administração"
+        },
+        {
+            "id": "1200h",
+            "materia": "1200h",
+            "text": "1200h",
+            "next": [
+                "INF0126",
+                "FAD0062",
+                "INF0058"
+            ]
+        },
+        {
+            "id": "2144h",
+            "materia": "2144h",
+            "text": "2144h",
+            "next": [
+                "EMC0076"
+            ]
+        },
+        {
+            "id": "2400h",
+            "materia": "2400h",
+            "text": "2400h",
+            "next": [
+                "EMC0182"
+            ]
+        }
+    ]
+}

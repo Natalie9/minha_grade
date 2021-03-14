@@ -1,20 +1,22 @@
 <template>
   <q-layout>
     <div class="fluxo">
-      <Mermaid :nodes="materias" type="graph LR"></Mermaid>
+      <!--      <Mermaid :nodes="materias" type="graph LR"></Mermaid>-->
+      <Periodos></Periodos>
     </div>
   </q-layout>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
-import Mermaid from 'components/Mermaid'
 import Materias from 'assets/materias.json'
+import Periodos from 'components/Periodos'
 
 export default defineComponent({
   name: 'PageIndex',
   components: {
-    Mermaid
+    Periodos
+    // Mermaid
   },
   data () {
     return {
@@ -31,7 +33,6 @@ export default defineComponent({
 <style>
 .fluxo {
   height: 100vh;
-  background: black;
   width: 100vw;
 }
 </style>
