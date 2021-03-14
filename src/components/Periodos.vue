@@ -4,7 +4,7 @@
       <div v-for="(periodo, index) in periodos" :key="periodo" class="periodos_container">
         <span class="periodo-title">{{ index }}</span>
 
-        <div v-for="materia of periodo" :key="materia.id" class="materias_container">
+        <div v-for="materia of periodo" :key="materia.id" class="materias_container" @click="viewDetails">
           <div class="materia_card">
             {{ materia.materia }}
           </div>
@@ -12,18 +12,26 @@
       </div>
 
     </div>
+    <detalhes-materia ref="detalhesMateria"></detalhes-materia>
   </q-layout>
 </template>
 
 <script>
 import Materias from 'assets/ENGCO-BM-2.json'
+import DetalhesMateria from 'components/DetalhesMateria'
 
 export default {
 
   name: 'Periodos',
+  components: { DetalhesMateria },
   data () {
     return {
       materias: Materias.componentes_curriculares
+    }
+  },
+  methods: {
+    viewDetails () {
+      this.$refs.detalhesMateria.visibilidade = true
     }
   },
   computed: {
@@ -53,8 +61,8 @@ export default {
 .periodos_container {
   display: flex;
   flex-direction: column;
-  min-width: 20vw;
   align-items: center;
+  box-sizing: border-box;
 }
 .periodo-title{
   font-size: 2rem;
@@ -63,12 +71,19 @@ export default {
 
 .materia_card {
   background: var(--blue-primary);
-  padding: 1rem;
+  padding: 0.8rem;
   margin: 1rem;
-  width: 15vw;
+  width: 45vw;
   border-radius: 5px;
   text-align: center;
   color: var(--white);
+  word-wrap: normal;
+}
+
+@media (min-width: 900px) {
+  .materia_card {
+    width: 15vw;
+  }
 }
 
 .materias_container {
