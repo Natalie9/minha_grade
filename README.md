@@ -2,6 +2,8 @@
 
 Gerenciador de fluxo universitário
 
+https://nostalgic-keller-48e870.netlify.app/#/
+
 ## Install the dependencies
 ```bash
 yarn
