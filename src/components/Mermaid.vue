@@ -1,5 +1,6 @@
 <template>
   <q-layout>
+    {{parseCode}}
     <div id="mermaid" class="mermaid">{{ parseCode }}</div>
   </q-layout>
 </template>

@@ -1,4 +1,3 @@
-
 const routes = [
   {
     path: '/',
@@ -12,6 +11,18 @@ const routes = [
         name: 'Materia',
         path: 'materia/:id',
         component: () => import('pages/MateriaCompleta.vue')
+      }, {
+        name: 'Fluxo',
+        path: 'fluxo',
+        component: () => import('pages/FluxoMermaid.vue')
+      }, {
+        name: 'Periodos',
+        path: 'periodos',
+        component: () => import('components/Periodos')
+      }, {
+        name: 'Mermaid',
+        path: 'mermaid',
+        component: () => import('components/TesteVueMermais')
       }
     ]
   },

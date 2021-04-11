@@ -1,5 +1,5 @@
 import { boot } from 'quasar/wrappers'
-import VueMermaid from "vue-mermaid";
+import VueMermaid from "vue-mermaid"
 
 const api = axios.create({ baseURL: 'https://api.example.com' })
 
@@ -13,6 +13,8 @@ export default boot(({ app }) => {
   app.config.globalProperties.$api = api
   // ^ ^ ^ this will allow you to use this.$api (for Vue Options API form)
   //       so you can easily perform requests against your app's API
+
+  app.component('VueMermaid', VueMermaid)
 })
 
 export { axios, api }

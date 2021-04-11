@@ -3,13 +3,15 @@
     <q-layout class="layout_container">
       <q-header class="detalhes_header">
         <span>Detalhes da Materia</span>
-        <q-icon name="close" class="cursor-pointer" v-close-popup ></q-icon>
+        <q-icon name="close" class="cursor-pointer" v-close-popup></q-icon>
       </q-header>
       <q-page-container class="detalhes_container">
         <div class="detalhes_texto">
           <span>Nome: {{ materia.materia }} </span>
           <span>{{ materia.periodo }}° período </span>
           <span>Nucleo: {{ materia.nucleo }} </span>
+          <Nodo :materia="materia"></Nodo>
+
         </div>
         <q-btn class="detalhes_botao" label="Ver mais" @click="irParaMateria"></q-btn>
 
@@ -20,8 +22,14 @@
 
 <script>
 import Materias from 'assets/ENGCO-BM-2.json'
+import DadosMaterias from 'assets/materias.json'
+import Nodo from 'components/Nodo'
+
 export default {
   name: 'DetalhesMateria',
+  components: {
+    Nodo
+  },
   data () {
     return {
       visibilidade: false,
@@ -40,6 +48,14 @@ export default {
           id: this.materia.id
         }
       })
+    }
+  },
+  computed: {
+    materiaFluxo () {
+      return [this.materia]
+    },
+    testeDadosFluxo () {
+      return DadosMaterias.data
     }
   }
 }
